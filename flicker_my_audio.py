@@ -2,7 +2,7 @@ from progress.bar import ChargingBar
 from pydub import AudioSegment
 
 
-def led(original_audio_path, interval_size_ms, export_file_name, stop_here=10000):
+def flicker_my_audio(original_audio_path, interval_size_ms, export_file_name, stop_here=10000):
     print("importing")
     original_audio = AudioSegment.from_mp3(original_audio_path)
     new_audio = original_audio[:1]  # initialize new AudioSegment that is the first 1 ms of audiofile. (using AudioSegment constructor didnt work)
