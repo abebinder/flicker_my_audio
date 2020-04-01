@@ -1,7 +1,7 @@
 # flicker_my_audio
 
-My friend Aidan me LED lights have a refresh rate (they turn on and off rapidly, producing what looks like a steady 
-stream of light). He wondered what that refresh rate would sound like if applied to audido. This script will take in 
+My friend Aidan told me LED lights have a refresh rate (they turn on and off rapidly, producing what looks like a steady 
+stream of light). He wondered what that refresh rate would sound like if applied to audio. This script will take in 
 mp3 audio and add silence at regular intervals. This will create repeated cycles of audio then silence mimicking the 
 refresh rate of an LED. 
 
